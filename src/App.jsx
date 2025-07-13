@@ -1,8 +1,12 @@
 import "./App.css";
+import UseFetchHook from "./Custom Hooks/UseFetchHook";
+import UseFetchTest from "./Custom Hooks/UseFetchTest";
+import UseCallback from "./useCallback/UseCallback";
 import UseContext from "./useContext/UseContext";
 import UseEffectExOne from "./useEffect/UseEffectExOne";
 import UseEffectExTwo from "./useEffect/UseEffectExTwo";
 import UseLayout from "./useLayout/UseLayout";
+import UseMemo from "./useMemo/UseMemo";
 import UseReducer from "./useReducer/UseReducer";
 import UseRef from "./useRef/UseRef";
 import UseStateExOne from "./useState/UseStateExOne";
@@ -19,7 +23,10 @@ function App() {
       {/* <UseContext /> */}
       {/* <UseReducer /> */}
       {/* <UseRef /> */}
-      <UseLayout />
+      {/* <UseLayout /> */}
+      {/* <UseMemo /> */}
+      {/* <UseCallback /> */}
+      <UseFetchTest />
     </>
   );
 }
